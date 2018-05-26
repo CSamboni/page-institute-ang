@@ -1,0 +1,33 @@
+<section class="programa">
+  <div class="contenedor-video">
+    <video autoplay [muted]="true" loop>
+      <source src="../../../assets/video/mejor-planta-fisica.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="contenido-tablero">
+    <div class="contenedor">
+      <div class="programa-tablero">
+        <h2>Tablero Informativo</h2>
+        <nav class="menu-tablero">
+          <a href="#">Actividades</a>
+        </nav>
+        <div id="ingreso" class="info-tablero ocultar clearfix">
+          <div *ngFor="let infor of _is.actividades" class="detalle-ingreso">
+            <h3>Grados:</h3>
+            <h4>{{ infor.jman.Act_1 }}</h4>
+            <h4>{{ infor.jman.Act_2 }}</h4>
+            <h4>{{ infor.jman }}</h4>
+          </div>
+          <div class="detalle-actividades" id="actividades">
+            <h4>Fecha:</h4>
+            <h3>11,10 y 9</h3>
+            <p>Primer Bloque</p>
+            <h5>Hora:</h5>
+            <p>Segundo Bloque</p>
+            <h5>Hora:</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

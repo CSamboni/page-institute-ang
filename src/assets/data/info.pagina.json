@@ -1,0 +1,10 @@
+{
+  "actividades": [
+    {
+      "jmañana": ["Actividad 1", "Actividad 2", "Actividad 3"]
+    },
+    {
+      "jtarde": ["Actividad 1", "Actividad 2", "Actividad 3"]
+    }
+  ]
+}
